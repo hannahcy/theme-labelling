@@ -1,0 +1,6 @@
+spacy
+nltk
+numpy
+tensorflow_hub
+sentence_transformers
+Pillow
