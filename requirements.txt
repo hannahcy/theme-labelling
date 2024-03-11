@@ -1,6 +1,3 @@
-spacy
-nltk
-numpy
-tensorflow_hub
-sentence_transformers
-Pillow
+gensim==4.3.2
+nltk==3.8.1
+openai==0.28.1
