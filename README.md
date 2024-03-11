@@ -8,6 +8,8 @@ Use requirements.txt to set up venv or conda, your choice of virtual environment
 
 To train a new LDA model:
 
+Copy your OpenAI API key into the code, line 18. I'm happy to provide one via email if required.
+
     python lda.py
 
 This takes about 20 minutes to train on full dataset, but I have provided a trained model etc
