@@ -6,12 +6,18 @@ Use requirements.txt to set up venv or conda, your choice of virtual environment
 
     `pip install -r requirements.txt`
 
-To train a new LDA model: 
+To train a new LDA model:
+
     `python lda.py`
+
     > This takes about 20 minutes to train on full dataset, but I have provided a trained model etc
+
 To test on an unseen document/s: 
+
     > Assumes the existence of a trained LDA model, a dictionary of vocabulary and a file containing topic names available (all provided in this repo)
+
     > Document/s should be in a .txt file, one document per line
+    
     `python lda_inference.py -f (your-test-docs).txt`
 
 Alternatively, you can inspect topics.json for the list of topics that were discovered and named when I ran lda.py myself.
