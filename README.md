@@ -30,7 +30,31 @@ Although the '__label__' field in the dataset is known to be unreliable, I took 
 
 I also used it to estimate a number of labels, and a spread of those labels (while acknowledging they are unreliable, I assumed they might be indicative):
 
-    {'Energy&Resources&Utilities': 21786, 'Legal&Defence': 6594, 'Entertainment': 5220, 'Food&Beverage': 17059, 'Information,Technology&Telecommunications': 5833, 'Pharmaceutical': 9679, 'Sport&Gaming': 11199, 'Automotive&PetrolServices': 16449, 'RealEstate&PropertyServices': 7591, 'Agriculture,Forestry&Fishing': 15183, 'Education': 13938, 'Finance&Insurance&BusinessServices': 26622, 'Unions': 1143, 'Religion': 2300, 'RetailTrade': 8193, 'Health&CommunityServices': 20387, 'Transport&Storage': 15243, 'Hotels&Accommodation': 1143, 'Construction&Manufacturing': 7797, 'Tourism&Events': 3465, 'Media&Publications': 8182, 'Cultural&Recreational': 4726, 'Environment': 3150}
+    {
+    'Energy&Resources&Utilities': 21786, 
+    'Legal&Defence': 6594, 
+    'Entertainment': 5220, 
+    'Food&Beverage': 17059, 
+    'Information,Technology&Telecommunications': 5833, 
+    'Pharmaceutical': 9679, 
+    'Sport&Gaming': 11199, 
+    'Automotive&PetrolServices': 16449, 
+    'RealEstate&PropertyServices': 7591, 
+    'Agriculture,Forestry&Fishing': 15183, 
+    'Education': 13938, 
+    'Finance&Insurance&BusinessServices': 26622, 
+    'Unions': 1143, 
+    'Religion': 2300, 
+    'RetailTrade': 8193, 
+    'Health&CommunityServices': 20387, 
+    'Transport&Storage': 15243, 
+    'Hotels&Accommodation': 1143, 
+    'Construction&Manufacturing': 7797, 
+    'Tourism&Events': 3465, 
+    'Media&Publications': 8182, 
+    'Cultural&Recreational': 4726, 
+    'Environment': 3150
+    }
 
 These are somewhat imbalanced, but within an order of magnitude of each other, so I didn't do any preprocessing of the dataset itself (for example, to take a balanced sample from across the topics) -- these labels have also been described as unreliable, so I didn't want to put too much faith in them.
 
